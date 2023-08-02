@@ -3,6 +3,7 @@ html{
     background: color #cccecf;
 }
 body{
+    text-decoration: none;
     width: 1400px;
     margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,11 +20,7 @@ h3{
 p{
     font-size: 25px;
 }
-li{
-    font-size: 25px;
-    line-height: 2;
-    letter-spacing: 1px;
-}
+
 /*-----navigation-------*/
 .nav{
     text-align: right;
@@ -60,6 +57,7 @@ column-gap: 100px;
 margin: 0 auto;
 max-width: 1400px;
 }
+/*-------Work-----*/
 .work{
     padding-top: 40px;
 }
@@ -69,4 +67,45 @@ grid-template-columns: 2.5fr 1.5fr 3fr;
 column-gap: 80px;
 margin: 0 auto;
 max-width: 1400px;
+}
+.skill{
+    font-size: 25px;
+    line-height: 2;
+}
+/*-------Project-----*/
+.highschool{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    column-gap: 80px;
+    margin: 0 auto;
+}
+.highschool img{
+    margin: 20 15 20 auto;
+}
+.college{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    column-gap: 80px;
+    margin: 0 auto;
+}
+.college img{
+    width: 400px;
+    height: 250px;
+    margin: 20 15 20 auto;
+}
+.cw1-des{
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 1;
+}
+.master{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    column-gap: 80px;
+    margin: 0 auto;
+}
+.master img{
+    width: 300px;
+    height: 450px;
+    margin: 5 15 auto;
 }
