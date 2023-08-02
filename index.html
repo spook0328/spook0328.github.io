@@ -1,20 +1,39 @@
-<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8"/>
-		<link href="styles/style.css" rel="stylesheet" type="text/css "/><!--導入CSS-->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
-		<title>Wong's page </title>
+		<link rel="stylesheet" href="styles/index.css" />
+		<title>Wong's Home page</title>
 	</head>
-    <body>
-		<h1>Hello</h1>
-		<a href = "Resume.html">履歷表 Resume</a>
-		<a href = "Project.html">作品集 Project</a>
-		<a href = "Contact.html">聯繫 Contact</a>
-		<img src="images/profile.jpg" alt="preview image"/><!--導入照片-->
-		<p>我是<strong>翁睿昕</strong>是個喜歡嘗試新事物的人</p>
-		<script src="scripts/main.js"></script><!--導入java scrpit，這一定要放在最後面，不然Js讀不到-->
+	<body>
+		<div class="main-content">
+			<!------按鈕Intro------>
+			<div class="nav">
+				<nav>
+					<a href = "Resume.html"><h3>學歷&經歷 Resume</h3></a> &emsp;
+					<a href = "Project.html"><h3>作品集 Project</h3></a> &emsp;
+				</nav>
+			</div>
+			<!------內文------>
+			<div class="middle-selection">
+				<img src="images/profile.jpg"/><br><br><br>
+				<h1>翁睿昕 Eric Wong </h1>
+				<h2>關於我 About me</h2>
+			    <p>我是個喜歡挑戰新事物的人，這裡是我的履歷網站，上方學歷和經歷有詳細工作及學習經歷，作品集則是有之前做過的案子，右下角的Download PDF可以下載我的履歷，歡迎詳閱。</p>
+				<p>I am an individual who enjoys challenging new endeavors. This is my resume website, where detailed information about my educational background and work experiences can be found above. The portfolio showcases the projects I have previously undertaken. You can download my resume by clicking on the 'Download PDF' button in the bottom right corner. Feel free to explore and learn more about me.</p>
+				<a href="assets/JuiHsinWong_Resume.pdf" download class="btn download" style="width:145px;height:30px" target="_blank">Download &nbsp;PDF</a>
+			</div>
+			<hr>
+			<!------底部------>
+			<div class="bottom-selection">
+				<div class="social">
+					<h2>Email</h2>
+					<span><p>eric032807@gmail.com</p></span>
+					<div class="social-b1">
+						<a href="https://www.facebook.com/eric.wong.169067"><img src="images/facebook.png" style="width:50px;height:50px;"></a>
+					</div>				
+					<div class="social-b2">
+						<a href="https://www.linkedin.com/in/%E7%9D%BF%E6%98%95-%E7%BF%81-114b8121a/"><img src="images/linkedin.png" style="width:50px;height:50px;"></a>
+					</div>
+			</div>
+		</div>
 	</body>
 </html>
