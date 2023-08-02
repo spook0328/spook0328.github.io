@@ -1,0 +1,94 @@
+/*------Gloabal styles-----------*/
+html{
+    background: color #cccecf;
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+}
+/*-----navigation-------*/
+.nav{
+    text-align: right;
+    width:100%;
+}
+nav a{
+    display:inline-block;
+    margin: 15px;
+    text-decoration: none;/*連結不顯示*/
+    font-weight: 700;
+    font-size: 25px;
+    color: #000000;
+}
+/*-----Content-------*/
+.middle-selection{
+    position: relative;
+    padding: 120px 100px 150px 100px;
+    text-align: left;
+    justify-content: center;
+}
+.middle-selection h1,h2,p{
+  border-width:  40px;
+  width: 1200px;
+}
+.middle-selection img{
+    padding: 80px 15px ;
+    width: 40%;
+    border-radius: 50%;
+    border-color: #b3b6b7;
+    float: left;
+}
+/*----Download PDF----*/
+.btn{
+    padding: 0 10px 0 15px; 
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+
+}
+.download{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.btn:hover{
+background-color: white;
+color:black ;
+}
+/*---bottom---*/
+.social{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.social-b1{
+    position: absolute;
+    right: 10;
+    bottom: 10;
+    width: 100px;
+    margin: 10px;
+}
+.social-b2{
+    position: absolute;
+    right: 80;
+    bottom: 10;
+    width:150px;
+    margin: 10px;
+}
