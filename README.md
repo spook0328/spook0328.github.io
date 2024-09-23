@@ -1,2 +1,2 @@
 # Ericwong.github.io
-履歷網頁
+Resume Website 履歷網頁
